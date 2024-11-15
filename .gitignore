@@ -40,3 +40,6 @@ logs/
 
 mlruns
 shap_images
+
+*.csv
+*.png
