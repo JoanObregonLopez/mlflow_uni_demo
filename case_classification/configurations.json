@@ -1,0 +1,30 @@
+[
+    {
+        "epochs": 5,
+        "batch_size": 128,
+        "optimizer": "adam",
+        "learning_rate": 0.001,
+        "scheduler": null
+    },
+    {
+        "epochs": 10,
+        "batch_size": 64,
+        "optimizer": "sgd",
+        "learning_rate": 0.01,
+        "scheduler": {
+            "type": "exponential",
+            "decay_rate": 0.9
+        }
+    },
+    {
+        "epochs": 5,
+        "batch_size": 256,
+        "optimizer": "adam",
+        "learning_rate": 0.0005,
+        "scheduler": {
+            "type": "step",
+            "step_size": 2,
+            "gamma": 0.5
+        }
+    }
+]

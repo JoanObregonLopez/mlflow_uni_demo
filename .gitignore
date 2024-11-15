@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+mi_entorno/
+*.egg-info/
+
+# MLflow files
+mlruns/
+
+# System configuration files
+.DS_Store
+Thumbs.db
+
+# File logs
+logs/
+*.log
+
+# Output files
+*.h5
+*.ckpt
+
+# Files of Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# SHAP Files
+*.shap
+
+# Configuration files of the IDE
+.vscode/
+.idea/
+
+# Others
+*.swp
+*~
